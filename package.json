@@ -1,0 +1,19 @@
+{
+  "name": "my-project",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "push-db": "bunx drizzle-kit push",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "hono": "^4.11.1"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.10",
+    "@types/bun": "^1.3.4",
+    "drizzle-kit": "^0.31.8"
+  }
+}
